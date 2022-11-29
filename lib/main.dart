@@ -24,11 +24,10 @@ class GiroApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              Padding(padding: EdgeInsets.all(16.0)),
-              Image.network("http://www.iuav.it/Ateneo1/docenti/architettu/docenti-a-/Alberto-Zo/ZORZI.doc_cvt_file/image001.png"),
+              Image.network("https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/KeizersgrachtReguliersgrachtAmsterdam.jpg/1920px-KeizersgrachtReguliersgrachtAmsterdam.jpg"),
               SizedBox(height: 16),
               const Text(
-                'Asterdarmn é una cittá europea.\nCió significa che essa non é una cittá americana',
+                'Amsterdam é una cittá europea.\nCió significa che essa non é una cittá americana',
                  textAlign: TextAlign.center,
                  style: TextStyle(fontWeight: FontWeight.bold,
                  color: Color.fromARGB(255, 58, 0, 97)
